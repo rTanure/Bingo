@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BINGO | tela inicial</title>
+</head>
+<body>
+    <section>
+        <div class="principal">
+            <div class="cartela" id="cartela">
+
+            </div>
+            <div class="controle">
+                <div class="numeroSorteado">
+                    <p id="ultimoNumero"></p>
+                </div>
+                <div class="botoes">
+                    <div class="buttonWraper">
+                        <input type="button" value="SORTEAR" class="botao sortear" onclick="clickSortear()">
+                    </div>
+                    <div class="buttonWraper">
+                        <input type="button" value="RESETAR" class="botao resetar" onclick="resetarTabela()">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/criarTabela.js"></script>
+    <script src="js/sortearNumero.js"></script>
+    <script src="js/resetarTabela.js"></script>
+</body>
+</html>

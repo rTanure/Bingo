@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: rgb(104, 207, 104);
+}
+
+section {
+    height: 600px;
+    width: 600px;
+
+    padding: 20px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+
+    background-color: white;
+}
+
+.principal {
+    width: 100%;
+    height: 100%;
+}
+
+section > div.principal {
+    display: flex;
+}
+
+/* CARTELA */
+.cartela{
+    height: 100%;
+    width: calc(100% / 3);
+    margin-left: 20px;
+}
+
+.cartelaColuna {
+    display: inline-block;
+    width: calc(100% / 5);
+    height: 100%;
+}
+
+.numeroSingle {
+    height: calc(100% / 15);
+    width: 100%;
+    padding: 2px;
+}
+
+.numeroSingle div {
+    border-radius: 50%;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: rgb(110, 223, 110);
+    border: 2px solid rgb(110, 223, 110);
+}
+
+.numeroSingle p {
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* CARTELA FIM */
+
+/* CONTROLE */
+.controle {
+    height: 100%;
+    width: calc(100% - (100% / 3));
+    display: flex;
+    flex-direction: column;
+}
+
+.numeroSorteado {
+    height: 50%;
+    position: relative;
+}
+
+.numeroSorteado P {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    line-height: 200px;
+    text-align: center;
+    top: 50%;
+    border-radius: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid rgb(110, 223, 110);
+    color: rgb(110, 223, 110);
+    font-weight: bold;
+    font-size: 64px;
+}
+
+/* botões */
+.botoes {
+    height: 50%;
+}
+
+
+.buttonWraper {
+    width: 100%;
+    height: 50%;
+    display: inline-block;
+    position: relative;
+}
+
+.botao {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 80px;
+    width: 200px;
+    font-size: 30px;
+    border-radius: 40px;
+    border: 0;
+    cursor: pointer;
+    transition: 0.3s;
+    outline: 0;
+}
+
+.botao:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.308);
+}
+
+.botao.sortear {
+    color: white;
+    background-color: rgb(110, 223, 110);
+}
+
+.botao.sortear:hover {
+    background-color: rgb(104, 207, 104);
+}
+
+.botao.resetar {
+    background-color: white;
+    color: rgb(110, 223, 110);
+    border: 2px solid rgb(110, 223, 110);
+}
+
+.botao.resetar {
+    color: rgb(104, 207, 104);
+    border-color: rgb(104, 207, 104);
+}
+
+/* CONTROLE FIM */
+
+/* ULTIOS SORTEADOS */
+.ultimosSorteados{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    border-radius: 40px;
+    border: 2px solid rgb(110, 223, 110);
+    padding: 0 10px;
+    margin-top: 10px;
+}
+
+.numeroSortedoSingle {
+    background-color: white;
+    background-color: rgb(110, 223, 110);
+    color: white;
+    border-radius: 50%;
+    height: 35px;
+    position: relative;
+    width: 35px;
+    margin: 0 5px;
+    transition: 0.5s;
+}
+
+.numeroSortedoSingle p {
+    font-weight: 700;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* ULTIMOS SORTEADOS FIM */
