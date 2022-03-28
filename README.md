@@ -16,5 +16,7 @@ Esse código consiste em um simulador de sorteio de bingo que contem a função 
 # Como usar
 
 Para iniciar o sorteio de números pelo programa, clique no botão sortear. O número sorteado aparecerá em cima do botão e o seu equivalente na tabela ao lado será sinalizado até o fim do jogo.
-Para resetar o jogo basta clicar no botão "resetar". Os numeros marcados na tabela ao lado irão voltar ao normal, preparando o código para uma nova rodada.
-O programa irá resetar automaticamente assim que todos os números da tabela forem sorteados.
+
+Para resetar o jogo basta clicar no botão "resetar", voltando os numeros marcados na tabela ao lado ao normal, preparando o código para uma nova rodada.
+
+O programa tambem irá resetar automaticamente assim que todos os números da tabela forem sorteados.
