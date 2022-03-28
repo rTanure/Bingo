@@ -2,7 +2,7 @@
   <h1>Sorteio de bingo</h1>
 </div>
 <div align="center">
-  <img src="https://lh5.googleusercontent.com/BpWZzYDAdIBHJbRGQD_Mh7QLwkSoq8fkuckjE5GJYxgSaUXnNmbg9XSTNXx5MEEa_t_PBHw3mNOL4zlfeXW5=w1600-h767">
+  <img src="https://imgur.com/ufPpeiT.png">
 </div>
 
 # Descrição
